@@ -35,7 +35,7 @@ def start_timer():
     word_to_type.insert(tkinter.END, list_of_words)
     speedbox.delete("1.0", tkinter.END)
     numofwordstyped = 0
-    Timer(20, get_words).start()
+    Timer(60, get_words).start()
 
 
 window = tkinter.Tk()
